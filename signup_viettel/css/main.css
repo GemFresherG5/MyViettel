@@ -35,7 +35,6 @@
       display: block;
       float: left;
       height: 50px;
-      text-align: center;
       position: relative;
       text-decoration: none;
       color: #000; }
@@ -55,7 +54,8 @@
     .header-crump .crump .crump-component:last-child a {
       width: 30%;
       background: #cdcccc;
-      font-size: 15px; }
+      font-size: 15px;
+      text-align: center; }
       .header-crump .crump .crump-component:last-child a:before {
         display: none; }
     .header-crump .crump .crump-component .circle {
@@ -79,21 +79,23 @@
       width: 20%;
       background: #cdcccc;
       padding-top: 10px;
-      font-size: 18px; }
+      font-size: 18px;
+      text-align: left; }
       .header-crump .crump .step1 .fa-authi {
         color: #3a918c;
         margin-right: 10px; }
     .header-crump .crump .step2 {
       width: 24%;
       font-size: 15px;
-      text-align: left;
+      text-align: center;
       background: #cdcccc; }
       .header-crump .crump .step2:before {
         background: #cdcccc; }
     .header-crump .crump .step3 {
       background: #f2f1f1;
       font-size: 15px;
-      width: 26%; }
+      width: 26%;
+      text-align: center; }
       .header-crump .crump .step3:before {
         background: #f2f1f1; }
     .header-crump .crump .line1 {

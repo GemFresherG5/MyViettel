@@ -44,7 +44,6 @@
         display: block;
         float: left;
         height: 50px;
-        text-align: center;
         position: relative;
         text-decoration: none;
         color: #000;
@@ -70,6 +69,7 @@
         width: 30%;
         background: rgb(205, 204, 204);
         font-size: 15px;
+        text-align: center;
         &:before {
           display: none;
         }
@@ -102,6 +102,7 @@
       background: rgb(205, 204, 204);
       padding-top: 10px;
       font-size: 18px;
+      text-align: left;
       .fa-authi{
         color: rgb(58, 145, 140);
         margin-right: 10px;
@@ -110,7 +111,7 @@
     .step2{
       width: 24%;
       font-size: 15px;
-      text-align: left;
+      text-align: center;
       background: rgb(205, 204, 204);
       &:before{
         background: rgb(205, 204, 204);
@@ -120,6 +121,7 @@
       background: rgb(242, 241, 241);
       font-size: 15px;
       width: 26%;
+      text-align: center;
       &:before{
         background: rgb(242, 241, 241);
       }
